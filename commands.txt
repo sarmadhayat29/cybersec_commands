@@ -27,3 +27,36 @@ Basic XSS Payloads
 <script>alert('XSS Attack!')</script>
 "><script>alert('XSS')</script>
 
+Week 2: Security Improvements
+Input Validation
+Install validator for input validation:
+
+npm install validator
+Password Hashing
+Install bcrypt for hashing passwords:
+
+npm install bcrypt
+npm i --save-dev @types/bcrypt
+JWT Authentication
+Install jsonwebtoken for secure authentication:
+
+npm install jsonwebtoken
+HTTP Security Headers
+Install helmet for enhanced security headers:
+
+npm install helmet
+
+Week 3: Penetration Testing & Logging
+Nmap Scanning
+Perform network scanning with Nmap:
+
+nmap -sV -p 3000 localhost
+Logging
+Install winston for logging:
+npm install winston
+
+Miscellaneous Commands
+Install TypeScript dependencies for missing types:
+
+npm install --save-dev @types/node
+npm install --save-dev @types/express
